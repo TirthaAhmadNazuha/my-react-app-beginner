@@ -1,4 +1,5 @@
 {
+  "version": 1,
   "short_name": "Kopi kodingan",
   "name": "Cari inspirasi dari kopi",
   "icons": [
@@ -20,6 +21,7 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#00000000",
-  "background_color": "rgb(255, 166, 0)"
+  "theme_color": "var(--bg)",
+  "background_color": "var(--bg)",
+  "font_family": "Plus Jakarta Sans"
 }

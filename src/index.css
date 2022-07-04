@@ -19,11 +19,11 @@
 	--he: var(--lightHe);
 	--bg: var(--lightBg);
 	--body: var(--lightBo);
-	--pri: rgba(255, 166, 0, 0.87);
+	--pri: rgba(94, 218, 23, 0.76);
 	color-scheme: light;
 }
 html, body {
-	font: 15px "plus Jakarta Sans", sans-serif;
+	font: 15px "Plus Jakarta Sans", sans-serif;
 	color: var(--co);
 	background: var(--body);
 }
@@ -36,7 +36,12 @@ button {
 	background: #0000;
 }
 i {
+	display: inline-flex;
 	font-size: 24px;
+}
+i::before {
+	margin: 0 auto;
+	margin-top: 3px;
 }
 div {
 	background: var(--bg);
