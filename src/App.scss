@@ -5,10 +5,10 @@
     right: 0;
     z-index: 77;
     display: flex;
-    padding: 15px calc(10px + 1vw) 12px calc(10px + 1vw);
+    padding: 8px calc(10px + 1vw) 16px calc(10px + 1vw);
     text-align: center;
-    border-top-left-radius: 32px;
-    border-top-right-radius: 32px;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
     button {
         display: flex;
         flex-direction: column;
@@ -95,12 +95,13 @@
     flex-direction: column;
     overflow-y: auto;
     .bread-crumb {
-        flex-basis: 160px;
+        flex-basis: 100px;
         width: 100%;
         display: flex;
         align-items: center;
         flex-wrap: nowrap;
         overflow-x: auto;
+        overflow-y: hidden;
         button {
             background: #fefeff30;
             padding: 6px 12px;

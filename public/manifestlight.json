@@ -1,7 +1,7 @@
 {
   "version": 1,
   "short_name": "Kopi kodingan",
-  "name": "Cari inspirasi dari kopi",
+  "name": "",
   "icons": [
     {
       "src": "favicon.ico",
@@ -21,7 +21,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "var(--bg)",
-  "background_color": "var(--bg)",
-  "font_family": "Plus Jakarta Sans"
+  "theme_color": "#fefeff",
+  "background_color": "#fefeff"
 }

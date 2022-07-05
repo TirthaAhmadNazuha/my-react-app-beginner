@@ -7,10 +7,10 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 15px calc(10px + 1vw) 12px calc(10px + 1vw);
+  padding: 8px calc(10px + 1vw) 16px calc(10px + 1vw);
   text-align: center;
-  border-top-left-radius: 32px;
-  border-top-right-radius: 32px;
+  border-top-left-radius: 22px;
+  border-top-right-radius: 22px;
 }
 
 .navbar button {
@@ -147,8 +147,8 @@
 }
 
 .content-home .bread-crumb {
-  -ms-flex-preferred-size: 160px;
-      flex-basis: 160px;
+  -ms-flex-preferred-size: 100px;
+      flex-basis: 100px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -159,6 +159,7 @@
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
   overflow-x: auto;
+  overflow-y: hidden;
 }
 
 .content-home .bread-crumb button {
