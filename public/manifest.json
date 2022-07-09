@@ -1,7 +1,7 @@
 {
   "version": 1,
   "short_name": "Kopi kodingan",
-  "name": "",
+  "name": "              ",
   "icons": [
     {
       "src": "favicon.ico",
@@ -22,5 +22,9 @@
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#fefeff",
-  "background_color": "#fefeff"
+  "background_color": "#fefeff",
+  "color_scheme_overrides": {
+    "background_color": "#1d1d1e",
+    "theme_color": "#1d1d1e"
+  }
 }

@@ -7,19 +7,23 @@
 	scroll-behavior: smooth;
 }
 :root {
-	--lightCo: #2222237d;
+	--lightCo: #1d1d1edc;
 	--lightHe: #121213;
 	--lightBg: #fefeff;
 	--lightBo: #ededee;
-	--darkCo: #dddddd7d;
+	--darkCo: #ddddddc5;
 	--darkHe: white;
-	--darkBg: #2e2e2f;
-	--darkBo: #202021;
+	--darkBg: #181819;
+	--darkBo: #020203;
 	--co: var(--lightCo);
 	--he: var(--lightHe);
 	--bg: var(--lightBg);
 	--body: var(--lightBo);
-	--pri: rgba(94, 218, 23, 0.76);
+	--pri: #e30045b9;
+	--truePri: #e30045;
+	--softgr: #75757643;
+	--hardgr: #75757675;
+	--gray: #757576;
 	color-scheme: light;
 }
 html, body {
@@ -46,7 +50,7 @@ i::before {
 div {
 	background: var(--bg);
 }
-.App {
+.App, #root {
 	background: #0000;
 }
 @media screen and (prefers-color-scheme: dark) {
